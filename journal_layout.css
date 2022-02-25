@@ -1,44 +1,53 @@
-#bodyBlock {
-  border: solid 5px green;
+body{
+  background-image: url('./images/background.jpeg');
+}
+
+a {
+  text-decoration: none;
+  color: #2fb8b8;
+}
+
+.mainBlock {
+  height: 100%;
   background-color: white;
+  border: solid 10px white;
   margin-left: 10%;
   margin-right: 10%;
   color: #2fb8b8 ;
+  overflow: scroll;
 }
 
-#block1 {
-  border: solid 5px red;
+.redBox {
+  background-color: #a8f0f0;
   text-align: right;
 }
 
-#block1-1 {
-  border: solid 5px orange;
+.subtitle {
+  font-size: 14px;
 }
 
-#block2 {
-  border: solid 5px blue;
+.blueBox {
+  border: solid 4px #c2e9e9;
   background-color: #e8fbfb;
   padding: 5px;
   margin-top: 10px;
   overflow: hidden;
 }
 
-#block2 img {
-  float: right;
-}
-
-#block3 {
-  border: solid 5px blue;
-  background-color: #e8fbfb;
-  padding: 5px;
-  margin-top: 10px;
-  overflow: hidden;
-}
-
-#block3 img {
+.blueBox img {
   float: right;
 }
 
 .dateBlock {
-  border: solid 5px purple;
+  border-bottom: dotted 2px blue;
+}
+
+.friends {
+  float: left;
+  width: 25%;
+}
+
+.other {
+  float: right;
+  width: 75%
 }
