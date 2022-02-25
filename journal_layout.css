@@ -1,0 +1,44 @@
+#bodyBlock {
+  border: solid 5px green;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #2fb8b8 ;
+}
+
+#block1 {
+  border: solid 5px red;
+  text-align: right;
+}
+
+#block1-1 {
+  border: solid 5px orange;
+}
+
+#block2 {
+  border: solid 5px blue;
+  background-color: #e8fbfb;
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#block2 img {
+  float: right;
+}
+
+#block3 {
+  border: solid 5px blue;
+  background-color: #e8fbfb;
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#block3 img {
+  float: right;
+}
+
+.dateBlock {
+  border: solid 5px purple;
+}
